@@ -1,0 +1,20 @@
+CRITICAL - 2021-09-18 00:11:49 --> Invalid file: home/services/index.php
+#0 /home/pkarunga/ivy.pkarungari.co.ke/appstarter/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/services/i...')
+#1 /home/pkarunga/ivy.pkarungari.co.ke/appstarter/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render('home/services/i...', Array, true)
+#2 /home/pkarunga/ivy.pkarungari.co.ke/appstarter/app/Controllers/BaseController.php(57): view('home/services/i...', Array)
+#3 /home/pkarunga/ivy.pkarungari.co.ke/appstarter/app/Controllers/Services.php(17): App\Controllers\BaseController->_renderPage('home/services/i...', Array)
+#4 /home/pkarunga/ivy.pkarungari.co.ke/appstarter/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Services->index()
+#5 /home/pkarunga/ivy.pkarungari.co.ke/appstarter/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Services))
+#6 /home/pkarunga/ivy.pkarungari.co.ke/appstarter/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/pkarunga/ivy.pkarungari.co.ke/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-18 00:12:59 --> Invalid file: Home/About/index.php
+#0 /home/pkarunga/ivy.pkarungari.co.ke/appstarter/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/About/inde...')
+#1 /home/pkarunga/ivy.pkarungari.co.ke/appstarter/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render('Home/About/inde...', Array, true)
+#2 /home/pkarunga/ivy.pkarungari.co.ke/appstarter/app/Controllers/BaseController.php(57): view('Home/About/inde...', Array)
+#3 /home/pkarunga/ivy.pkarungari.co.ke/appstarter/app/Controllers/About.php(17): App\Controllers\BaseController->_renderPage('Home/About/inde...', Array)
+#4 /home/pkarunga/ivy.pkarungari.co.ke/appstarter/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\About->index()
+#5 /home/pkarunga/ivy.pkarungari.co.ke/appstarter/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+#6 /home/pkarunga/ivy.pkarungari.co.ke/appstarter/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/pkarunga/ivy.pkarungari.co.ke/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

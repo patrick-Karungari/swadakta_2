@@ -1,0 +1,23 @@
+CRITICAL - 2021-09-17 22:33:32 --> Cannot declare class App\Controllers\Home, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-17 23:47:35 --> Invalid file: Home/index.php
+#0 /home/pkarunga/ivy.pkarungari.co.ke/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/index.php')
+#1 /home/pkarunga/ivy.pkarungari.co.ke/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render('Home/index', Array, true)
+#2 /home/pkarunga/ivy.pkarungari.co.ke/app/Controllers/BaseController.php(59): view('Home/index', Array)
+#3 /home/pkarunga/ivy.pkarungari.co.ke/app/Controllers/Home.php(17): App\Controllers\BaseController->_renderPage('home/layout', Array)
+#4 /home/pkarunga/ivy.pkarungari.co.ke/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Home->index()
+#5 /home/pkarunga/ivy.pkarungari.co.ke/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/pkarunga/ivy.pkarungari.co.ke/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/pkarunga/ivy.pkarungari.co.ke/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-17 23:55:23 --> Invalid file: Home/index.php
+#0 /home/pkarunga/ivy.pkarungari.co.ke/appstarter/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/index.php')
+#1 /home/pkarunga/ivy.pkarungari.co.ke/appstarter/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render('Home/index', Array, true)
+#2 /home/pkarunga/ivy.pkarungari.co.ke/appstarter/app/Controllers/BaseController.php(59): view('Home/index', Array)
+#3 /home/pkarunga/ivy.pkarungari.co.ke/appstarter/app/Controllers/Home.php(17): App\Controllers\BaseController->_renderPage('home/layout', Array)
+#4 /home/pkarunga/ivy.pkarungari.co.ke/appstarter/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Home->index()
+#5 /home/pkarunga/ivy.pkarungari.co.ke/appstarter/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/pkarunga/ivy.pkarungari.co.ke/appstarter/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/pkarunga/ivy.pkarungari.co.ke/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
