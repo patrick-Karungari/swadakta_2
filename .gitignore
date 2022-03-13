@@ -66,19 +66,7 @@ Vagrantfile
 #-------------------------
 # Temporary Files
 #-------------------------
-writable/cache/*
-!writable/cache/index.html
 
-writable/logs/*
-!writable/logs/index.html
-
-writable/session/*
-!writable/session/index.html
-
-writable/uploads/*
-!writable/uploads/index.html
-
-writable/debugbar/*
 
 php_errors.log
 
@@ -143,6 +131,4 @@ nb-configuration.xml
 /phpunit*.xml
 /.phpunit.*.cache
 
-appstarter/.env
-appstarter/writable/
-appstarter/writable/session/ci_session54f3i7el9aks4k7gs36nieo92t77uvp3
+
