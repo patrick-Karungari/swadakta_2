@@ -144,3 +144,5 @@ nb-configuration.xml
 /.phpunit.*.cache
 
 appstarter/.env
+appstarter/writable/
+appstarter/writable/session/ci_session54f3i7el9aks4k7gs36nieo92t77uvp3
